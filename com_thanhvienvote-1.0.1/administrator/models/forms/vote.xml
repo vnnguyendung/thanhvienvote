@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field name="id" type="text" readonly="true" class="readonly" default="0" description="JGLOBAL_FIELD_ID_DESC"/>
+    <field name="created_by" type="createdby" required="true" default="0" label="COM_THANHVIENVOTE_FORM_LBL_VOTE_CREATED_BY" description="COM_THANHVIENVOTE_FORM_DESC_VOTE_CREATED_BY" hint="COM_THANHVIENVOTE_FORM_LBL_VOTE_CREATED_BY"/>
+    <field name="art_createdby" required="true" label="COM_THANHVIENVOTE_FORM_LBL_VOTE_ART_CREATEDBY" description="COM_THANHVIENVOTE_FORM_DESC_VOTE_ART_CREATEDBY" hint="COM_THANHVIENVOTE_FORM_LBL_VOTE_ART_CREATEDBY"/>
+    <field name="art_id" required="true" label="COM_THANHVIENVOTE_FORM_LBL_VOTE_ART_ID" description="COM_THANHVIENVOTE_FORM_DESC_VOTE_ART_ID" hint="COM_THANHVIENVOTE_FORM_LBL_VOTE_ART_ID"/>
+    <field name="vote" default="0" label="COM_THANHVIENVOTE_FORM_LBL_VOTE_VOTE" description="COM_THANHVIENVOTE_FORM_DESC_VOTE_VOTE" hint="COM_THANHVIENVOTE_FORM_LBL_VOTE_VOTE"/>
+    <field name="save" default="0" label="COM_THANHVIENVOTE_FORM_LBL_VOTE_SAVE" description="COM_THANHVIENVOTE_FORM_DESC_VOTE_SAVE" hint="COM_THANHVIENVOTE_FORM_LBL_VOTE_SAVE"/>
+    <field name="time" type="timecreated" label="COM_THANHVIENVOTE_FORM_LBL_VOTE_TIME" description="COM_THANHVIENVOTE_FORM_DESC_VOTE_TIME" hint="COM_THANHVIENVOTE_FORM_LBL_VOTE_TIME"/>
+    <field name="version_note" type="text" label="JGLOBAL_FIELD_VERSION_NOTE_LABEL" description="JGLOBAL_FIELD_VERSION_NOTE_DESC" class="inputbox" size="45" labelclass="control-label"/>
+  </fieldset>
+</form>
